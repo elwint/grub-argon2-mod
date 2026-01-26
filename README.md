@@ -1,5 +1,7 @@
 # GRUB 2.12 Argon2 compiled modules and config
 
+NOTE: Since GRUB 2.14 this module is not needed anymore.
+
 Add LUKS2 Argon2 support to your existing GRUB2 installation without having to reinstall GRUB2.
 
 Source/License: <https://aur.archlinux.org/packages/grub-improved-luks2-git>
@@ -22,4 +24,4 @@ The LUKS2 module with Argon2 support is loaded first in custom.cfg (which is aut
 
 ## Disclaimer
 
-I tested it on Void Linux with GRUB 2.12 (EFI), but it should work on any distro with GRUB 2.12. It may or may not work on other GRUB2 versions. Use it at your own risk. I am not responsible for any issues, damage, or loss that may result from using these modules.
+I tested it on Void Linux with GRUB 2.12 (EFI), but it should work on any distro with GRUB 2.12. It may or may not work on older GRUB2 versions. Use it at your own risk. I am not responsible for any issues, damage, or loss that may result from using these modules.
